@@ -1,1 +1,7 @@
-
+<form name="myform">
+Type anything you like:
+<input type="text" name="typing" 
+onChange="alert(this.value) ; this.select()">
+<input type="button" value="Search"
+onClick="alert(this.form.typing.value)">
+</form>
